@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MemberList</class>
+ <widget class="QDialog" name="MemberList">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>230</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="chooseButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>270</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: #d81b1b;
+border-width:0px;
+border-color: #3a3633;
+border-style: solid;
+padding: 5px;
+padding-left: 5px;
+padding-right: 5px;
+font: 10pt &quot;Tahoma&quot;;
+color: white;
+}
+QPushButton:pressed {
+background-color:rgba(255,255,255,.2);
+}
+QPushButton:hover { background: rgb(255,37,37); }
+QPushButton:disabled {
+ background:#1A1A1A; 
+color:#9B9B9B;
+}</string>
+   </property>
+   <property name="text">
+    <string>Выбрать</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CancelButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>270</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+background-color: #d81b1b;
+border-width:0px;
+border-color: #3a3633;
+border-style: solid;
+padding: 5px;
+padding-left: 5px;
+padding-right: 5px;
+font: 10pt &quot;Tahoma&quot;;
+color: white;
+}
+QPushButton:pressed {
+background-color:rgba(255,255,255,.2);
+}
+QPushButton:hover { background: rgb(255,37,37); }
+QPushButton:disabled {
+ background:#1A1A1A; 
+color:#9B9B9B;
+}</string>
+   </property>
+   <property name="text">
+    <string>Отмена</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="inviteLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выберите участника из списка:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nameEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="userList">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>211</width>
+     <height>201</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
